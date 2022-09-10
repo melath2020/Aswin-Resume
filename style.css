@@ -332,4 +332,14 @@ hero-section */
    color: #fff;
     background-color:rgba(196, 59, 35, 0.863) ;
     height: 40px;
+    padding-bottom: 20px;
+}
+
+input:focus,
+textarea:focus
+
+{
+    outline:1px !important;
+    border: #c43247 solid 1px;
+    box-shadow: none !important;
 }
