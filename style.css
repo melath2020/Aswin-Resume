@@ -343,3 +343,12 @@ textarea:focus
     border: #c43247 solid 1px;
     box-shadow: none !important;
 }
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
