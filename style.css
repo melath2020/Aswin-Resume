@@ -6,6 +6,7 @@
 }
 /* mobile-nav */
 .mobile-nav-wrapper{
+
     display:none;
     position: fixed;
     width:100vw;
@@ -16,17 +17,10 @@
     height: 100vh;
     transition: top 0.3s;
 }
-.mobile-nav-wrappers{
+#myLinks {
     display: none;
-    position: fixed;
-    width:100vw;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background:linear-gradient(to bottom,transparent,rgb(90, 89, 89));
-    height: 100vh;
-    transition: top 0.3s;
-}
+  }
+
 .mobile-nav{
     display: flex;
     flex-flow: column;
@@ -55,13 +49,17 @@
     display: none;
 }
 .menu-mob {
-    position: relative;
+    margin-top: -27px;
     display: block;
     text-align: right;
     color: white;
-    font-size: 25px;
+    font-size: 27px;
+   
     
     
+}
+.menu-mob .fa{
+    padding-bottom: 200px;
 }
 .mobile-nav a:hover{
     color: #aa3345;
@@ -419,7 +417,20 @@ textarea:focus
 @media only screen and (max-width: 600px) {
     .menu{
         display: none;
+       
     }
+    .menu-mob {
+        
+        display: block;
+    
+    }
+    
+    #myLinks {
+        display: none;
+      }
+  
+   
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -427,6 +438,15 @@ textarea:focus
     .menu{
         display: none;
     }
+    .menu-mob {
+        
+        display: block;
+    
+    }
+    
+    #myLinks {
+        display: none;
+      }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -434,6 +454,15 @@ textarea:focus
     .menu{
         display: block;
     }
+    .menu-mob {
+        
+        display: none;
+    
+    }
+  
+    #myLinks {
+        display: none;
+      }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -441,6 +470,15 @@ textarea:focus
     .menu{
         display: block;
     }
+    .menu-mob {
+        
+        display: none;
+    
+    }
+   
+    #myLinks {
+        display: none;
+      }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -448,6 +486,15 @@ textarea:focus
     .menu{
         display: block;
     }
+    .menu-mob {
+        
+        display: none;
+    
+    }
+   
+    #myLinks {
+        display: none;
+      }
 }
 
 
