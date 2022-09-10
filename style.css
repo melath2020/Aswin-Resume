@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* header-section */
+
+.header-section{
+   background-color: rgba(196, 59, 35, 0.863);
+   height: 76px;
+   box-shadow: 0px 2px 8px 0px rgba(119, 111, 105, 0.562);
+}
+.head-text{
+    padding: 30px;
+    color: #fff;
+
+}
+.menu{
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 25px;
+   
+}
+/* 
+hero-section */
+.hero-section{
+    position: relative;
+    height:580px;
+    background-size: cover;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.781), rgba(255, 255, 255, 0.801)), url("assets/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.hero-text h1{
+    text-align: center;
+    font-weight: 800;
+    color: rgb(95, 94, 94);
+}
+
+.hero-text h5{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(59, 51, 51);
+}
+.sub-text{
+   text-align: center;
+   font-size: 14px;
+   color: rgb(82, 80, 80);
+}
+
+.txt-rotate{
+    color: rgba(196, 59, 35, 0.863);
+}
+.social-media{
+    margin-top:50px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+.social-media i{
+    margin-left: 5px;
+}
+.social-media i:hover{
+    margin-left: 5px;
+    color: rgba(196, 59, 35, 0.863);
+    transform: scale(1.2);
+}
+.social-media h6{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+/* pdf-section */
+
+.pdf-section{
+    background-color:rgb(247, 233, 223);
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.txt-pdf{
+    color: rgb(80, 78, 78);
+    font-size: 14px;
+    justify-content: center;
+    
+}
+
+.btn-pdf{
+    border: none;
+    background-color: rgba(196, 59, 35, 0.863);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:11px;
+}
+.btn-pdf:hover{
+    cursor: pointer;
+    border: none;
+    background-color: rgba(199, 37, 8, 0.863);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size:11px;
+    transform: scale(1.02);
+}
+ 
+
+/* about-section */
+
+.about-section .right{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.952), rgba(255, 255, 255, 0.87)), url(assets/undraw_code_review_re_woeb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.table{
+    font-size: 13px;
+    width:100%;
+}
+
+
+.sub-title{
+    color: rgb(151, 149, 149);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 17px;
+}
+.line{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 6px;
+    height: 3px;
+    width: 50px;
+    background-color: rgb(151, 149, 149);
+}
+.color{
+    position: absolute;
+    background-color: rgba(199, 37, 8, 0.863);
+    height: 3px;
+    width: 20px;
+}
+.img-prf{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    width: 100%;
+    height: 90%;
+    border-left: rgba(196, 59, 35, 0.863) solid 7px;
+    border-radius: 5px;
+}
+.title-sub{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 17px;
+    color: rgb(158, 155, 155);
+}
+.right h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 14px;
+    color: rgb(145, 137, 137);
+}
+.right p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(95, 90, 90);
+}
+
+
+/* .experience-section */
+
+
+.experience-section{
+    background-color: rgb(255, 252, 240);
+    padding-bottom: 50px;
+}
+.experience-section .sub-title{
+    padding-top: 25px;
+}
+
+.card-body h2{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(90, 87, 87);
+}
+.card-body p{
+    font-size: 12px;
+    text-align: center;
+}
+.luminar{
+    border-bottom: blueviolet solid 3px;
+}
+.experience-card{
+    margin-top: 5px;
+   
+}
+.whoofey{
+    border-bottom: rgb(6, 172, 6) solid 3px;
+}
+.pixelcomp{
+    border-bottom: orangered solid 3px;
+}
+.card-exp{
+    height: 245px;
+}
+/* 
+.works-section */
+
+/* Style the tab */
+.btn-tab button{
+    border: none;
+    background-color: rgba(196, 59, 35, 0.863);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+/* works */
+
+
+.works-section{
+    padding-top: 10px;
+    background-color: #faf6f1d2;
+    margin: auto;
+    padding-bottom: 20px
+}
+.works-section .sub-text{
+    font-size: small;
+    color: #746b6b;
+}
+
+
+
+
+.w3-bar button{
+   border: none;
+   background-color:rgba(196, 59, 35, 0.863) ;
+   color: white;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 12px;
+   text-align: center;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   border-radius: 5px
+}
+
+
+.w3-black{
+    text-align: center;
+}
+.portfolio-button{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.portfolio-button button{
+    background-color: rgba(196, 59, 35, 0.863) ;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* contact-section */
+.contact-section{
+    padding-bottom: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.781), rgba(255, 255, 255, 0.801)), url("assets/undraw_directions_re_kjxs\ \(1\).svg");;
+    background-position: left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.media-icons{
+    font-size: 35px;
+    color: rgba(196, 59, 35, 0.863) ;
+    
+}
+.media-icons i{
+    padding-left: 5px;
+}
+.contact p{
+    font-size: 14px;
+} 
+.address h3{
+ font-size: 18px;
+}
+.address p{
+    font-size: 12px;
+}
+.btn-submit{
+    background-color: rgba(196, 59, 35, 0.863) ;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+/* footer-section */
+.footer-section{
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+   color: #fff;
+    background-color:rgba(196, 59, 35, 0.863) ;
+    height: 40px;
+}
