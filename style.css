@@ -13,7 +13,7 @@
     top: 0;
     width: 100%
   }
-  
+
 .header-section{
    background-color: rgba(196, 59, 35, 0.863);
    height: 76px;
@@ -338,8 +338,9 @@ hero-section */
     text-align: center;
    color: #fff;
     background-color:rgba(196, 59, 35, 0.863) ;
-    height: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 input:focus,
