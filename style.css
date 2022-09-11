@@ -5,7 +5,7 @@
 
 }
 .menu{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* mobile-nav */
@@ -89,9 +89,14 @@
     top: -100px;
     width:100vw;
     display: block;
+
     transition: top 0.3s;
     
     
+}
+#navbar-header .menu a{
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .header-section{
