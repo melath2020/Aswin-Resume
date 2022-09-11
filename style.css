@@ -336,6 +336,39 @@ hero-section */
     color: #746b6b;
 }
 
+.domain{
+    font-size: 12px;
+    text-align: center;
+    color: rgba(196, 59, 35, 0.863);
+}
+.domain:hover{
+    font-size: 12px;
+    text-align: center;
+    color: rgba(51, 35, 196, 0.863);
+    cursor: pointer;
+}
+.card-text a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.work-plate{
+    border-bottom: rgba(196, 59, 35, 0.863) solid 2px;
+    transform: 0.5s;
+   
+}
+.work-plate.vishnu:hover{
+    border-bottom: #c43248e8 solid 2px;
+    border-top: #c43248e8 solid 4px;
+}
+.work-plate:hover{
+    
+    transform: scale(1.02);
+  
+}
+.tech{
+    font-size: 10px;
+    color: #746b6b;
+}
 
 
 
