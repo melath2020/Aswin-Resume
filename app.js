@@ -91,16 +91,7 @@ function myFunction() {
 
  // mobile nav
 
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  
-  var x = document.getElementById("#mobile-nav-wrapper");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+
  
  
  
