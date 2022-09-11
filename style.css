@@ -5,7 +5,19 @@
 
 }
 /* mobile-nav */
-#mobile-nav-wrapper{
+.mobile-nav-wrapper{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(to bottom,transparent,rgb(109, 103, 103));
+    height: 100vh;
+    transition: top 0.3s;
+}
+.mobile-nav-wrappers{
 
     display:none;
     position: fixed;
@@ -18,7 +30,6 @@
     transition: top 0.3s;
 }
 
-
 .mobile-nav{
     display: flex;
     flex-flow: column;
@@ -26,6 +37,8 @@
     align-items: center;
     justify-content: center;
     background: rgb(255, 255, 255);
+    border-bottom: rgba(196, 59, 35, 0.863) solid 3px;
+    font-size: 18px;
     padding: 1rem;
     border-radius: 5px;
     left: 0;
@@ -35,7 +48,7 @@
 
 .mobile-nav a{
     font-weight: 600;
-    color:rgb(122, 118, 118); 
+    color:rgb(117, 115, 115); 
     text-decoration: none;
     margin: 1rem 0;
     font-size: 20px;
@@ -56,22 +69,26 @@
     
     
 }
+
+
 .menu-mob .fa{
     padding-bottom: 200px;
 }
 .mobile-nav a:hover{
-    color: #aa3345;
+    color: rgba(196, 59, 35, 0.863);
 }
 
-
-/* header-section */
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    z-index: 1;
+#navbar-header{
+    background-color: rgba(196, 59, 35, 0.863);
     position: fixed;
-    top: 0;
-    width: 100%
-  }
+    z-index: 1;
+    top: -100px;
+    width:100vw;
+    display: block;
+    transition: top 0.3s;
+    
+    
+}
 
 .header-section{
    background-color: rgba(196, 59, 35, 0.863);

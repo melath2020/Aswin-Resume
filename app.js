@@ -57,39 +57,67 @@ var TxtRotate = function (el, toRotate, period) {
   };
 
 
-  // tabs
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
 
-  function openCity(cityName) {
-    var i;
-    var x = document.getElementsByClassName("city");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    document.getElementById(cityName).style.display = "block";  
-  }
-
-  // header
-  // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar-header").style.top = "0";
   } else {
-    header.classList.remove("sticky");
+    document.getElementById("navbar-header").style.top = "-250px";
   }
 }
 
 
 
- // mobile nav
+// mobile nav
+
+var menu= document.querySelector('#nav-btn')
+var menuwrapper=document.querySelector('.mobile-nav-wrapper')
+var close= document.querySelector('#close-btn')
+var nav= document.querySelector('#nav-btns')
+var mobilenav=document.querySelector('.mobile-nav-wrappers')
+var remove= document.querySelector('#close-btns')
+
+menu.addEventListener('click',function(e){
+    menuwrapper.style.display='block';
+    close.style.display='block';
+    menu.style.display='none';
+    remove.style.display='block';
+    nav.style.display='none';
+
+})
+
+close.addEventListener('click',function(e){
+    menuwrapper.style.display='none';
+    close.style.display='none';
+    menu.style.display='block';
+    mobilenav.style.display='none';
+    remove.style.display='none';
+    nav.style.display='block';
+})
+
+
+
+
+nav.addEventListener('click',function(e){
+    mobilenav.style.display='block';
+    remove.style.display='block';
+    nav.style.display='none'
+    close.style.display='block';
+    menu.style.display='none';
+    menuwrapper.style.display='none';
+})
+
+remove.addEventListener('click',function(e){
+  menuwrapper.style.display='none';
+    mobilenav.style.display='none';
+    remove.style.display='none';
+    nav.style.display='block';
+    close.style.display='none';
+    menu.style.display='block';
+    
+})
 
 
  
