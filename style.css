@@ -5,7 +5,7 @@
 
 }
 /* mobile-nav */
-.mobile-nav-wrapper{
+#mobile-nav-wrapper{
 
     display:none;
     position: fixed;
@@ -17,9 +17,7 @@
     height: 100vh;
     transition: top 0.3s;
 }
-#myLinks {
-    display: none;
-  }
+
 
 .mobile-nav{
     display: flex;
@@ -460,9 +458,7 @@ textarea:focus
     
     }
   
-    #myLinks {
-        display: none;
-      }
+   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -476,9 +472,7 @@ textarea:focus
     
     }
    
-    #myLinks {
-        display: none;
-      }
+   
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -491,11 +485,11 @@ textarea:focus
         display: none;
     
     }
-   
-    #myLinks {
-        display: none;
-      }
+ 
 }
+
+
+
 
 
   
