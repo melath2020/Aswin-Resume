@@ -360,6 +360,10 @@ hero-section */
     border-bottom: #c43248e8 solid 2px;
     border-top: #c43248e8 solid 4px;
 }
+.work-plate.aswin:hover{
+    border-bottom: #c43248e8 solid 2px;
+    border-top: rgba(196, 59, 35, 0.863)solid 4px;
+}
 .work-plate:hover{
     
     transform: scale(1.02);
