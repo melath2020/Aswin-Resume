@@ -285,6 +285,9 @@ hero-section */
 .experience-section .sub-title{
     padding-top: 25px;
 }
+.card{
+    box-shadow: 4px -3px 8px -2px #7e7c7c54;
+}
 
 .card-body h2{
     font-size: 14px;
@@ -364,6 +367,7 @@ hero-section */
 .work-plate.vishnu:hover{
     border-bottom: #c43248e8 solid 2px;
     border-top: #c43248e8 solid 4px;
+   
 }
 .work-plate.aswin:hover{
     border-bottom: #c43248e8 solid 2px;
