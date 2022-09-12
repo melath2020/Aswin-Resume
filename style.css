@@ -383,6 +383,22 @@ hero-section */
     transform: scale(1.02);
   
 }
+.aswin-resume{
+   
+    border-bottom: #e4a214e8 solid 2px;
+}
+.aswin-business{
+    border-bottom: #e4a214e8 solid 2px;
+}
+.aswin-business:hover{
+    border-top: #e4a214e8 solid 4px;
+}
+.aswin-resume:hover{
+
+    
+    border-top: #e4a214e8 solid 4px;
+ 
+}
 .tech{
     font-size: 10px;
     color: #746b6b;
