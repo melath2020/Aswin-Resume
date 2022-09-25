@@ -389,6 +389,14 @@ hero-section */
     border-bottom: #c43248e8 solid 2px;
     border-top: rgba(6, 93, 165, 0.863)solid 4px;
 }
+.work-plate.netflix:hover{
+    border-bottom: #c43248e8 solid 2px;
+    border-top: rgba(165, 43, 6, 0.863)solid 4px;
+}
+.work-plate.olx:hover{
+    border-bottom: #c43248e8 solid 2px;
+    border-top: rgba(30, 6, 165, 0.863)solid 4px;
+}
 .work-plate:hover{
     
     transform: scale(1.02);
