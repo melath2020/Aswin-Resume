@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700;1,800&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&family=Urbanist:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/fevicom.PNG">
+    <title>Porfolio-Aswin</title>
+</head>
+
+
+<body>
+    
+    <section class="header-section header">
+        <div class="container ">
+            <div class="head-text">
+                <div class="row ">
+                    <div class="col-md-3 col-sm-12">
+                        Works
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+
+                        <div class="menu">
+                            <a href="index.html">Home</a>
+                            <a href="index.html#ABOUTUS">About Me</a>
+                            <a href="index.html#EXPERIENCE">Experience</a>
+                            <a href="index.html#WORKS">Works</a>
+                            <a href="index.html#CONTACT">Contact Me</a>
+
+                        </div>
+                        <span class="menu-mob ">
+                            <i class="fa-solid fa-bars" id="nav-btn"></i>
+
+                            <i class="fa-solid fa-xmark" id="close-btn"></i>
+                        </span>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- header-section -->
+    <section class="header-section header" id="navbar-header">
+        <div class="container ">
+            <div class="head-text">
+                <div class="row ">
+                    <div class="col-md-3 col-sm-12">
+                        Asw.
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+
+                        <div class="menu">
+                            <a href="index.html#HOME">Home</a>
+                            <a href="index.html#ABOUTUS">About Me</a>
+                            <a href="index.html#EXPERIENCE">Experience</a>
+                            <a href="index.html#WORKS">Works</a>
+                            <a href="index.html#CONTACT">Contact Me</a>
+
+                        </div>
+                        <span class="menu-mob ">
+                            <i class="fa-solid fa-bars" id="nav-btns"></i>
+
+                            <i class="fa-solid fa-xmark" id="close-btns"></i>
+                        </span>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- mobile-nav -->
+    <div class="mobile-nav-wrapper">
+        <div class="mobile-nav">
+
+
+            <a href="index.html#HOME" data-hover="Home">Home</a>
+            <a href="index.html#ABOUTUS" data-hover="About Us">About Us</a>
+            <a href="index.html#EXPERIENCE" data-hover="Services">Experience</a>
+            <a href="index.html#WORKS" data-hover="Works">Works</a>
+            <a href="index.html#CONTACT" data-hover="Contact">Contact us</a>
+
+
+        </div>
+    </div>
+
+    <div class="mobile-nav-wrappers">
+        <div class="mobile-nav">
+
+
+            <a href="index.html#HOME" data-hover="Home">Home</a>
+            <a href="index.html#ABOUTUS" data-hover="About Us">About Us</a>
+            <a href="index.html#EXPERIENCE" data-hover="Services">Experience</a>
+            <a href="index.html#WORKS" data-hover="Works">Works</a>
+            <a href="index.html#CONTACT" data-hover="Contact">Contact us</a>
+
+
+        </div>
+    </div>
+
+
+ <!-- works-section -->
+    <!-- .works-section -->
+
+    <section>
+        <div class="works-section" id="WORKS">
+
+            <div class="container">
+                <h1 class="sub-title">
+                    Portfolio</h1>
+                <div class="line">
+                    <div class="color"></div>
+                </div>
+               
+            </div>
+
+            <div class="w3-bar w3-black pt-3">
+                <button class="btn-cod" onclick="openCity('Coding')"><i class="fa-solid fa-terminal"></i> Static Websites</button>
+                <button class="btn-design" onclick="openCity('React')"><i class="fa-brands fa-react"></i> React.js
+                </button>
+                <button class="btn-design" onclick="openCity('Express')"><i class="fa-solid fa-tape"></i>Express.js
+                </button>
+                <button class="btn-design" onclick="openCity('Designing')"><i class="fa-solid fa-pen-nib"></i> Designing
+                </button>
+
+            </div>
+            
+
+            <div id="Coding" class="w3-container city">
+              
+                <div class="container">
+                    <div class="card-work pt-3">
+                        <div class="row ">
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate vishnu">
+                                    <img src="assets/portfolio/vishnu.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Personal Website -Vishnu Prasad
+                                            <br><a href="https://vishnuprasad.work" class="href"><span
+                                                    class="domain">Domain : vishnuprasad.work</span></a>
+                                            <br><span class="tech">Technologies:
+                                                Html,Css,Bootstrap,Javascript,photoshop</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate aswin">
+                                    <img src="assets/portfolio/aswin.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Personal Website -Aswin Sudhakaran
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : aswinsudhakaran.in</span></a>
+                                            <br><span class="tech">Technologies:
+                                                Html,Css,Bootstrap,Javascript,photoshop</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate fast">
+                                    <img src="assets/portfolio/fast.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Fast Real Estate
+                                            <br><a href="https://melath2020.github.io/FastRealEstate/"
+                                                class="href"><span class="domain">Domain :
+                                                    melath2020.github.io/FastRealEstate </span></a>
+                                            <br><span class="tech">Technologies: Html,Css,Bootstrap ,Javascript
+                                                ,Photoshop</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+                      
+                    </div>
+                </div>
+            </div>
+
+            <div id="React" class="w3-container city" style="display:none">
+                <div class="container">
+                    <div class="card-work">
+                        <div class="row ">
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate  netflix">
+                                    <img src="assets/portfolio/netflix_clone.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Netflix-Clone
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: React.js with Backend TMDB API</span>
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate olx">
+                                    <img src="assets/portfolio/olx_clone.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Olx Clone
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: React.js with Backend: Firebase </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="Express" class="w3-container city" style="display:none">
+                <div class="container">
+                    <div class="card-work">
+                        <div class="row ">
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card work-plate ">
+                                    <img src="assets/portfolio/construction-message.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Title Update soon
+                                            <br><a href="https://aswinsudhakaran.in" class="href"><span
+                                                    class="domain">Domain : </span></a>
+                                            <br><span class="tech">Technologies: </span>
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="Designing" class="w3-container city" style="display:none">
+                <div class="container">
+                    <div class="card-work">
+                        <div class="row ">
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card aswin-resume">
+                                    <img src="assets/portfolio/resumemock.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Resume : Aswin s</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card aswin-business">
+                                    <img src="assets/portfolio/business.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Business Card : Aswin s</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card aswin-business">
+                                    <img src="assets/portfolio/business.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Business Card : Aswin s</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card aswin-business">
+                                    <img src="assets/portfolio/business.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Business Card : Aswin s</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 pt-3">
+                                <div class="card aswin-business">
+                                    <img src="assets/portfolio/business.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Business Card : Aswin s</p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+
+        </div>
+    </section>
+
+
+
+    
+    <footer class="footer-section">
+        <p>© Aswin Sudhakaran 2022 | Designed and Maintained by Aswin Sudhakaran</p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/ecfd9b3c91.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
