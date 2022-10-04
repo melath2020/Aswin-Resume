@@ -397,6 +397,10 @@ hero-section */
     border-bottom: #c43248e8 solid 2px;
     border-top: rgba(30, 6, 165, 0.863)solid 4px;
 }
+.work-plate.ali:hover{
+    border-bottom: #c43248e8 solid 2px;
+    border-top: rgb(236, 213, 5)solid 4px;
+}
 .work-plate:hover{
     
     transform: scale(1.02);
