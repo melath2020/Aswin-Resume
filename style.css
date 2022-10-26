@@ -381,24 +381,24 @@ hero-section */
     border-top: #c43248e8 solid 4px;
    
 }
-.work-plate.aswin:hover{
-    border-bottom: #c43248e8 solid 2px;
-    border-top: rgba(196, 59, 35, 0.863)solid 4px;
+.work-plate.figo:hover{
+    border-bottom: rgba(26, 211, 57, 0.863) solid 2px;
+    border-top: rgba(26, 211, 57, 0.863)solid 4px;
 }
 .work-plate.fast:hover{
-    border-bottom: #c43248e8 solid 2px;
+    border-bottom: rgba(6, 93, 165, 0.863) solid 2px;
     border-top: rgba(6, 93, 165, 0.863)solid 4px;
 }
 .work-plate.aviation:hover{
-    border-bottom: #c43248e8 solid 2px;
+    border-bottom: rgba(23, 30, 92, 0.863)solid 2px;
     border-top: rgba(23, 30, 92, 0.863)solid 4px;
 }
 .work-plate.paytym:hover{
-    border-bottom: #c43248e8 solid 2px;
+    border-bottom: #4a4acf solid 2px;
     border-top: #4a4acf solid 4px;
 }
 .work-plate.ali:hover{
-    border-bottom: #c43248e8 solid 2px;
+    border-bottom: rgb(236, 213, 5)solid 2px;
     border-top: rgb(236, 213, 5)solid 4px;
 }
 .work-plate:hover{
