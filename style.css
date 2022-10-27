@@ -349,7 +349,7 @@ hero-section */
     padding-top: 10px;
     background-color: #faf6f1d2;
     margin: auto;
-    padding-bottom: 20px
+    padding-bottom: 100px
 }
 .works-section .sub-text{
     font-size: small;
@@ -357,7 +357,7 @@ hero-section */
 }
 
 .domain{
-    font-size: 12px;
+    font-size: 9px;
     text-align: center;
     color: rgba(196, 59, 35, 0.863);
 }
