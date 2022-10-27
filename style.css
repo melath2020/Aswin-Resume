@@ -357,9 +357,10 @@ hero-section */
 }
 
 .domain{
-    font-size: 9px;
+    font-size: 11px;
     text-align: center;
     color: rgba(196, 59, 35, 0.863);
+    transition: 0.2s;
 }
 .domain:hover{
     font-size: 12px;
@@ -373,7 +374,7 @@ hero-section */
 }
 .work-plate{
     border-bottom: rgba(196, 59, 35, 0.863) solid 2px;
-    transform: 0.5s;
+    transition: 0.2s;
    
 }
 .work-plate.vishnu:hover{
@@ -400,10 +401,11 @@ hero-section */
 .work-plate.ali:hover{
     border-bottom: rgb(236, 213, 5)solid 2px;
     border-top: rgb(236, 213, 5)solid 4px;
+   
 }
 .work-plate:hover{
     
-    transform: scale(1.02);
+    transform: scale(1.04);
   
 }
 .aswin-resume{
