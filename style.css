@@ -432,6 +432,14 @@ hero-section */
     border-top: #c43247 solid 4px;
     border-bottom: 2px solid #c43247;
 }
+.post-social-media{
+    
+    border-bottom: 2px solid rgb(255, 81, 0);
+}
+.post-social-media:hover{
+    border-top: rgb(255, 81, 0) solid 4px;
+    border-bottom: 2px solid rgb(255, 81, 0);
+}
 .designing a{
     text-decoration: none;
     color: #484849
