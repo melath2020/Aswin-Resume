@@ -410,7 +410,7 @@ hero-section */
 }
 .aswin-resume{
    
-    border-bottom: #e4a214e8 solid 2px;
+    border-bottom: #181817e8 solid 2px;
 }
 .aswin-business{
     border-bottom: #e4a214e8 solid 2px;
@@ -421,8 +421,20 @@ hero-section */
 .aswin-resume:hover{
 
     
-    border-top: #e4a214e8 solid 4px;
+    border-top: #181817e8 solid 4px;
  
+}
+.poster-pixel{
+    
+    border-bottom: 2px solid #c43247;
+}
+.poster-pixel:hover{
+    border-top: #c43247 solid 4px;
+    border-bottom: 2px solid #c43247;
+}
+.designing a{
+    text-decoration: none;
+    color: #484849
 }
 .tech{
     font-size: 10px;
