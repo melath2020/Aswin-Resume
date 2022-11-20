@@ -413,7 +413,7 @@ hero-section */
     border-bottom: #181817e8 solid 2px;
 }
 .aswin-business{
-    border-bottom: #e4a214e8 solid 2px;
+    border-bottom: 2px solid #c43247;
 }
 .aswin-business:hover{
     border-top: #e4a214e8 solid 4px;
@@ -423,6 +423,15 @@ hero-section */
     
     border-top: #181817e8 solid 4px;
  
+}
+.brown:hover{
+
+    
+    border-top: #d6231de8 solid 4px;
+ 
+}
+.brown{
+    border-bottom: 2px solid #c43247;
 }
 .poster-pixel{
     
