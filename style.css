@@ -410,19 +410,28 @@ hero-section */
 }
 .aswin-resume{
    
-    border-bottom: #181817e8 solid 2px;
+    border-bottom: #c43248e8 solid 2px;
 }
 .aswin-business{
-    border-bottom: 2px solid #c43247;
+    border-bottom: 2px solid #c43248e8;
 }
 .aswin-business:hover{
-    border-top: #e4a214e8 solid 4px;
+    border-top: #e46014e8 solid 4px;
+    border-bottom: 2px solid #e46014e8;
 }
+
 .aswin-resume:hover{
 
-    
-    border-top: #181817e8 solid 4px;
+    border-top: #141414e8 solid 4px;
+    border-bottom: 2px solid #161616e8;
  
+}
+.Aami-SuperMart{
+    border-bottom: 2px solid #a8390de8;
+}
+.Aami-SuperMart:hover{
+    border-bottom: #e9b817e8 solid 2px;
+    border-top: 4px solid #e9b817e8;
 }
 .brown:hover{
 
@@ -443,7 +452,7 @@ hero-section */
 }
 .post-social-media{
     
-    border-bottom: 2px solid rgb(255, 81, 0);
+    border-bottom: 2px solid #c43247;
 }
 .post-social-media:hover{
     border-top: rgb(255, 81, 0) solid 4px;
