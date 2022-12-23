@@ -1,3 +1,12 @@
+// preloader
+var loader=document.getElementById("preloader");
+window.addEventListener("load",function(){
+    loader.style.display="none";
+})
+
+
+
+// animate text
 var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
