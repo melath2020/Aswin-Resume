@@ -327,6 +327,9 @@ hero-section */
 .pixelcomp{
     border-bottom: orangered solid 3px;
 }
+.cubix{
+    border-bottom: #038ed8 solid 3px;
+}
 .card-exp{
     height: 245px;
 }
