@@ -620,6 +620,9 @@ textarea:focus
         display: none;
     
     }
+    .card-exp{
+        height: 220px;
+    }
   
    
 }
@@ -633,6 +636,9 @@ textarea:focus
         
         display: none;
     
+    }
+    .card-exp{
+        height: 220px;
     }
    
    
